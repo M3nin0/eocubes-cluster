@@ -30,6 +30,7 @@ dependencies:
   - geoviews
   - nodejs
   - dask-kubernetes
+  - rasterio
   - pip:
     - git+https://github.com/xgcm/xgcm.git
     - git+https://github.com/brazil-data-cube/stac.py@b-0.8.1
