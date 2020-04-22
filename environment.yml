@@ -1,0 +1,35 @@
+name: pangeo
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.6
+  - cytoolz
+  - dask
+  - distributed
+  - fastparquet
+  - ipywidgets
+  - jupyterlab
+  - matplotlib
+  - nb_conda_kernels
+  - netcdf4
+  - nomkl
+  - numba
+  - numcodecs
+  - numpy
+  - pandas
+  - python-blosc
+  - scipy
+  - scikit-image
+  - xarray
+  - zict
+  - zarr
+  - gcsfs
+  - python-graphviz
+  - holoviews
+  - geoviews
+  - nodejs
+  - dask-kubernetes
+  - pip:
+    - git+https://github.com/xgcm/xgcm.git
+    - git+https://github.com/brazil-data-cube/stac.py@b-0.8.1
